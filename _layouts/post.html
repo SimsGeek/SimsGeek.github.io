@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<article>
+
+  <header class="post-header">
+    <h3 class="post-title">{{ page.title | escape }}</h3>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{content}}
+
+    {%if page.autoFillImages == true%}
+      {% for file in site.static_files %}
+        {% if file.path contains page.assets and file.extname == '.jpg' %}
+          <img src="{{ site.baseurl }}{{ file.path }}" alt="image" />
+          {%assign imagesExist = true %}
+        {% endif %}
+      {% endfor %}
+      <div class="image_description">
+        {{page.images}}
+      </div>
+    {%endif%}
+
+    {%if page.fillAudios == true%}
+      <div class="audio_container">
+      {% for file in site.static_files %}
+        {% if file.path contains page.assets and file.extname == '.mp3' or file.extname == '.wav'  %}
+        <div class="audio_name">
+          {{file.basename}}
+          <audio controls>
+            <source src="{{ site.baseurl }}{{ file.path }}" type="audio/mp3">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        {% endif %}
+      {% endfor %}
+      </div>
+      <div class="audio_description">
+        {{page.audios}}
+      </div>
+      <hr>
+    {%endif%}
+
+
+
+  </div>
+  <div class="post_nav">
+    <a class="u-url" href="{{ page.previous | relative_url }}">previous post</a>
+    <a class="u-url" href="{{ page.next | relative_url }}">next post</a>
+  </div>
+
+</article>

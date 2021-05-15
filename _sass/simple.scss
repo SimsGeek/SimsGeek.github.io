@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+// Import partials.
+//@import
+//  "simple/base",
+//  "simple/layout"
+//;
+
+@font-face {
+ font-family: Accanthis;
+ src: url("../assets/fonts/AccanthisADFStdNo2-Regular.otf");
+}
+@font-face {
+ font-family: foglihten;
+ src: url("../assets/fonts/Foglihten-068.otf");
+}
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+  font-family: Accanthis;
+}
+main {
+  margin: 2rem 25vw 2rem 25vw;
+}
+a {
+  text-transform: none;
+  color: Black;
+  text-decoration: none;
+}
+h1 {
+  font-size: 3rem;
+  font-family: Accanthis;
+}
+h3 {
+  font-family: foglihten;
+  margin: 0 1rem 0 0;
+}
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  max-height: auto;
+  margin: 1rem 0 0 0;
+}
+footer {
+  display: block;
+  text-align: center;
+  height: 50px;
+  margin: 2rem 0 0 0;
+}
+audio {
+  width: 100%;
+  display: block;
+  float: right;
+  margin: .5rem 0 1.5rem 0;
+}
+
+.post_title {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: baseline;
+  height: auto;
+  width: 100%;
+  margin: 2rem 0 0 0;
+}
+.post_date {
+  font-family: foglihten;
+  font-style: italic;
+  margin: 0 0 0 1rem;
+}
+.post_excerpt {
+  display: block;
+  position: relative;
+  margin: 1rem 0 0 0;
+}
+
+
+.audio_container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  font-family: foglihten;
+  font-style: oblique;
+  font-weight: bold;
+
+  audio {
+    flex-grow: 2;
+    margin-left: 1rem;
+  }
+
+  .audio_name {
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 1;
+    align-items: center;
+    margin: .5rem 0 .5rem 0;
+  }
+}
+
+.image_description, .audio_description {
+  width: 100;
+  height: auto;
+  text-align: justify;
+  margin: .5rem 0 1.5rem 0;
+}
+
+.post_nav {
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+  width: 100%;
+  justify-content: space-around;
+  font-family: foglihten;
+  font-style: italic;
+  margin: 2rem 0 0 0;
+}
