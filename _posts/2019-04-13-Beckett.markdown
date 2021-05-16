@@ -1,0 +1,13 @@
+---
+layout: post_compact
+assets: "beckett"
+show_excerpts: true
+autoFillImages: false
+autoFillAudios: true
+imageDescription: "These are the images"
+audioDescription: "These are the audios"
+
+excerpt_separator: <!--more-->
+---
+Un projet sur Samuel Beckett.
+<!--more-->

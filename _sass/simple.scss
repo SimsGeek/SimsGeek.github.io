@@ -25,9 +25,13 @@ dl, dd, ol, ul, figure {
 html {
   font-size: 100%;
   font-family: Accanthis;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 main {
   margin: 2rem 25vw 2rem 25vw;
+  flex-grow: 2;
 }
 a {
   text-transform: none;
@@ -44,7 +48,15 @@ h3 {
 }
 li {
   list-style: none;
-
+  img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition-property: filter;
+    transition-duration: .5s;
+  }
+  img:hover {
+    filter: none;
+  }
 }
 img {
   max-width: 100%;
@@ -52,10 +64,12 @@ img {
   margin: 1rem 0 0 0;
 }
 footer {
-  display: block;
   text-align: center;
   height: 50px;
+  width: 100%;
   margin: 2rem 0 0 0;
+  flex-grow: 1;
+  bottom: 0;
 }
 audio {
   width: 100%;
@@ -124,7 +138,7 @@ audio {
     flex-flow: row wrap;
     flex-grow: 1;
     align-items: center;
-    margin: 0 0 0 1rem;
+    margin: 1rem 0 0 1rem;
 
     audio {
       width: auto;

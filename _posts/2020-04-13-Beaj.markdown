@@ -1,0 +1,15 @@
+---
+layout: post
+assets: "beaj"
+title: "Béaj"
+show_excerpts: true
+autoFillImages: false
+autoFillAudios: true
+imageDescription: "These are the images"
+audioDescription: "These are the audios"
+
+excerpt_separator: <!--more-->
+---
+
+Concert d'improvisation libre en quartet au Béaj Kafe
+<!--more-->

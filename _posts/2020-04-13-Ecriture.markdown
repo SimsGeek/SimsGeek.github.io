@@ -1,0 +1,15 @@
+---
+layout: post
+assets: "ecriture"
+title: "Écriture"
+show_excerpts: true
+autoFillImages: false
+autoFillAudios: true
+imageDescription: "These are the images"
+audioDescription: "These are the audios"
+
+excerpt_separator: <!--more-->
+---
+
+Travaux réalisés en spécialité écriture créative, autour de l'oeuvre d'Apollinaire et de la poésie sonore notamment
+<!--more-->

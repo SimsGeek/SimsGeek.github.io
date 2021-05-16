@@ -1,0 +1,14 @@
+---
+layout: post
+assets: "workshopL3"
+show_excerpts: true
+autoFillImages: true
+autoFillAudios: false
+imageDescription: "These are the images"
+audioDescription: "These are the audios"
+
+excerpt_separator: <!--more-->
+---
+
+Workshop animé pendant une semaine pour les étudiants de première année de licence arts
+<!--more-->

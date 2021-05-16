@@ -1,0 +1,14 @@
+---
+layout: post
+assets: "huisClos"
+show_excerpts: true
+autoFillImages: false
+autoFillAudios: true
+imageDescription: "These are the images"
+audioDescription: "These are the audios"
+
+excerpt_separator: <!--more-->
+---
+
+Une poésie sonore avec un réservoir de sons limité à ceux qui sont présents dans la citation de Sartre "tous ces regards qui me mangent".
+<!--more-->
