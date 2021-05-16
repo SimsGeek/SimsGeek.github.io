@@ -3,7 +3,7 @@
 - Clone the repo.
 - Install Jekyll: check Jekyll's [official installation guide ](https://jekyllrb.com/docs/installation/)
 - type in `bundle exec jekyll serve` to build and watch the jekyll project
-#### For ubuntu based distros:
+#### For arch based distros:
     sudo pacman -S ruby base-devel
 
 ## Creating a post
