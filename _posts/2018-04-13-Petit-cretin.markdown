@@ -1,13 +1,13 @@
 ---
 layout: post
-assets: "homeSweetHome"
+assets: "petitCretin"
 show_excerpts: true
-autoFillImages: true
-autoFillAudios: false
+autoFillImages: false
+autoFillAudios: true
 imageDescription: "These are the images"
 audioDescription: "These are the audios"
 
 excerpt_separator: <!--more-->
 ---
-Une recherche plastique autour des éléments minimum de la maison.
+Un projet de lecture d'un poème de Mathieu Blond et musique improvisée en trio
 <!--more-->

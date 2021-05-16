@@ -1,6 +1,6 @@
 ---
-layout: post
-assets: "homeSweetHome"
+layout: post_compact
+assets: "art_et_violence"
 show_excerpts: true
 autoFillImages: true
 autoFillAudios: false
@@ -9,5 +9,5 @@ audioDescription: "These are the audios"
 
 excerpt_separator: <!--more-->
 ---
-Une recherche plastique autour des éléments minimum de la maison.
+Étude sur la violence auto-infligée comme empreinte de la violence vécue et l'auto-censure, à travers l'esthétique de la boursouflure.
 <!--more-->

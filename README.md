@@ -20,7 +20,7 @@ Just create a `.markdown` file in _posts with the following type of name:
       YYYY-MM-DD-name-of-post.markdown
 
 ## Front matter variables
-    layout: post | compactPost | page
+    layout: post | post_compact | page
     title: "title of post"
     assets: "folder name"
     show_excerpts: true | false

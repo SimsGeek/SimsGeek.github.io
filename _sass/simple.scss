@@ -44,6 +44,12 @@ h3 {
 }
 li {
   list-style: none;
+  img {
+    max-width: 60%;
+    max-height: auto;
+    display: block;
+    margin: 1rem auto 1rem auto;
+  }
 }
 img {
   max-width: 100%;
@@ -61,6 +67,7 @@ audio {
   display: block;
   float: right;
   margin: .5rem 0 1.5rem 0;
+  background-color: none;
 }
 
 .post_title {
@@ -80,6 +87,7 @@ audio {
   display: block;
   position: relative;
   margin: 1rem 0 0 0;
+  font-style: italic;
 }
 
 .post-content {
@@ -87,6 +95,22 @@ audio {
   text-align: justify;
 }
 
+//Only for compact layout
+.image_container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 1rem 0 .5rem 0;
+  border-left: 1px dashed black;
+
+  img {
+    max-width: 45%;
+    max-height: auto;
+  }
+
+}
 
 .audio_container {
   width: 100%;
@@ -97,18 +121,24 @@ audio {
   font-family: foglihten;
   font-style: oblique;
   font-weight: bold;
-
-  audio {
-    flex-grow: 2;
-    margin-left: 1rem;
-  }
+  margin: 1rem 0 .5rem 0;
+  border-left: 1px dashed black;
 
   .audio_name {
     display: flex;
     flex-flow: row wrap;
     flex-grow: 1;
     align-items: center;
-    margin: .5rem 0 .5rem 0;
+    margin: 0 0 0 1rem;
+
+    audio {
+      width: auto;
+      margin: auto;
+      display: flex;
+      align-self: center;
+      flex-grow: 2;
+      margin-left: 1rem;
+    }
   }
 }
 
@@ -117,6 +147,9 @@ audio {
   height: auto;
   text-align: justify;
   margin: .5rem 0 1.5rem 0;
+  border-bottom: 1px dashed black;
+  border-left: 1px dashed black;
+  padding: .3rem 1rem 0.3rem 1rem;
 }
 
 .post_nav {
