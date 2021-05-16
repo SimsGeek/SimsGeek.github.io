@@ -1,5 +1,10 @@
 # Simple jekyll theme
-Quick guide.
+## quick setup
+- Clone the repo.
+- Install Jekyll: check Jekyll's [official installation guide ](https://jekyllrb.com/docs/installation/)
+- type in `bundle exec jekyll serve` to build and watch the jekyll project
+#### For ubuntu based distros:
+    sudo pacman -S ruby base-devel
 
 ## Creating a post
 Just create a `.markdown` file in _posts with the following type of name:
