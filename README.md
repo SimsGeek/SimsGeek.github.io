@@ -3,8 +3,15 @@
 - Clone the repo.
 - Install Jekyll: check Jekyll's [official installation guide ](https://jekyllrb.com/docs/installation/)
 - type in `bundle exec jekyll serve` to build and watch the jekyll project
-#### For arch based distros:
+#### installation for arch based distros:
     sudo pacman -S ruby base-devel
+
+    echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+    echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+    echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+    source ~/.bashrc
+
+    gem install jekyll bundler
 
 ## Creating a post
 Just create a `.markdown` file in _posts with the following type of name:
