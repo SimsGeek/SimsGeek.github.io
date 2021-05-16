@@ -1,13 +1,18 @@
 ---
 layout: post
 title:  "Projet art"
-assets: "d2018"
+assets: "d2019"
 show_excerpts: true
+autoFillImages: true
+autoFillAudios: true
+imageDescription: "These are the images"
+audioDescription: "These are the audios"
+
 excerpt_separator: <!--more-->
 ---
-Hello, this is the header and the excerpt.
+
+Hello there my buddy
 <!--more-->
 
-I'm the main body content.
-
-## Section 2
+<audio>
+</audio>

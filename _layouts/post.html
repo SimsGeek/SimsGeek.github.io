@@ -14,15 +14,14 @@ layout: default
       {% for file in site.static_files %}
         {% if file.path contains page.assets and file.extname == '.jpg' %}
           <img src="{{ site.baseurl }}{{ file.path }}" alt="image" />
-          {%assign imagesExist = true %}
         {% endif %}
       {% endfor %}
       <div class="image_description">
-        {{page.images}}
+        {{page.imageDescription}}
       </div>
     {%endif%}
 
-    {%if page.fillAudios == true%}
+    {%if page.autoFillAudios == true%}
       <div class="audio_container">
       {% for file in site.static_files %}
         {% if file.path contains page.assets and file.extname == '.mp3' or file.extname == '.wav'  %}
@@ -37,7 +36,7 @@ layout: default
       {% endfor %}
       </div>
       <div class="audio_description">
-        {{page.audios}}
+        {{page.audioDescription}}
       </div>
       <hr>
     {%endif%}
