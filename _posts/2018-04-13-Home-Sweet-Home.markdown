@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "Projet art"
-assets: "d2019"
+assets: "homeSweetHome"
 show_excerpts: true
 autoFillImages: true
 autoFillAudios: true
@@ -10,9 +9,5 @@ audioDescription: "These are the audios"
 
 excerpt_separator: <!--more-->
 ---
-
-Hello there my buddy
+Une recherche plastique autour des éléments minimum de la maison.
 <!--more-->
-
-<audio>
-</audio>
