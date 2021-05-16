@@ -46,6 +46,22 @@ layout: default
     <hr>
   {%endif%}
 
+  {%if page.autoFillVideos == true%}
+    <div class="video_container">
+    {% for file in site.static_files %}
+      {% if file.path contains page.assets and file.extname == '.mp4'%}
+        <video src="{{ site.baseurl }}{{ file.path }}">
+          Your browser doesn't support HTML5 video.
+        </video>
+      {% endif %}
+    {% endfor %}
+    </div>
+    <div class="video_description">
+      {{page.videoDescription}}
+    </div>
+    <hr>
+  {%endif%}
+
 
   <div class="post_nav">
     <a class="u-url" href="{{ page.previous | relative_url }}">previous post</a>

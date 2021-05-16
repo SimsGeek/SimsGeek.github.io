@@ -3,9 +3,11 @@ layout: post
 assets: "psychondo_rosso"
 show_excerpts: true
 autoFillImages: true
-autoFillAudios: true
+autoFillAudios: false
+autoFillVideos: true
 imageDescription: "These are the images"
 audioDescription: "These are the audios"
+videoDescription: "Videos most be transcoded to x264"
 
 excerpt_separator: <!--more-->
 ---

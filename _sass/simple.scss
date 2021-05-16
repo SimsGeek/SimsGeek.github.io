@@ -15,6 +15,12 @@
  src: url("../assets/fonts/Foglihten-068.otf");
 }
 
+@media only screen and (max-width: 600px) {
+  main {
+    margin: 2rem 2vw 2rem 2vw;
+  }
+}
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -151,7 +157,17 @@ audio {
   }
 }
 
-.image_description, .audio_description {
+.video_container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 1rem 0 .5rem 0;
+  border-left: 1px dashed black;
+}
+
+.image_description, .audio_description, .video_description {
   width: 100;
   height: auto;
   text-align: justify;
