@@ -1,6 +1,7 @@
 # Simple jekyll theme
 ## quick setup
 - Clone the repo.
+- install git-lfs
 - Install Jekyll: check Jekyll's [official installation guide ](https://jekyllrb.com/docs/installation/)
 - type in `bundle exec jekyll serve` to build and watch the jekyll project
 #### installation for arch based distros:
