@@ -15,11 +15,7 @@
  src: url("../assets/fonts/Foglihten-068.otf");
 }
 
-@media only screen and (max-width: 600px) {
-  main {
-    margin: 2rem 2vw 2rem 2vw;
-  }
-}
+
 
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
@@ -107,7 +103,7 @@ audio {
 
 .post-content {
   margin: 1rem 0 0 0;
-  text-align: justify;
+  text-align: left;
 }
 
 //Only for compact layout
@@ -186,4 +182,15 @@ audio {
   font-family: foglihten;
   font-style: italic;
   margin: 2rem 0 0 0;
+}
+
+@media only screen
+  and (min-device-width: 412px)
+  and (max-device-width: 847px)
+  and (-webkit-min-device-pixel-ratio: 2.6) {
+
+  main {
+    margin: 2rem 10vw 2rem 10vw;
+  }
+
 }
