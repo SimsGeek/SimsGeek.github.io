@@ -1,0 +1,14 @@
+---
+layout: post
+assets: "ecriture"
+title: "Partitions d'Interprétation"
+show_excerpts: true
+autoFillImages: true
+autoFillAudios: true
+imageDescription: "Partitions graphiques réalisées au cours de ma recherche"
+audioDescription: "Interprétations sonores de ces partitions"
+
+excerpt_separator: <!--more-->
+---
+
+Travaux réalisés en séminaire de recherche-création, en écriture créative, autour de la poésie sonore.<!--more--> Dans cette recherche, je me suis intéressée aux modalités d'écriture de l'oralité, aussi bien en musique qu'en poésie, tout au cours du XXe siècle. J'ai ensuite tenté de créer des partitions d'interprétation de mes propres textes, et de développer une forme de vocabulaire graphique qui donnerait un lexique d'interprétation aux lecteurs. L'écriture est pensée dès sa naissance comme au service de la lecture à voix haute.

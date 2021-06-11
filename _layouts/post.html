@@ -14,7 +14,7 @@ layout: default
 
   {%if page.autoFillImages == true%}
     {% for file in site.static_files %}
-      {% if file.path contains page.assets and file.extname == '.jpg' %}
+      {% if file.path contains page.assets and (file.extname == '.jpg' or file.extname == '.png') %}
         <img src="{{ site.baseurl }}{{ file.path }}" alt="image" />
       {% endif %}
     {% endfor %}

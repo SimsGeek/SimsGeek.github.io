@@ -1,0 +1,14 @@
+---
+layout: post
+assets: "beaj"
+title: "Les Béaj Klub de Nautilis"
+show_excerpts: true
+autoFillImages: true
+autoFillAudios: true
+imageDescription: "Concert sans public au Beaj Kafé"
+audioDescription: "Captation par Léo Aubry"
+
+excerpt_separator: <!--more-->
+---
+
+Rencontre improvisée en quartet au Béaj Kafe<!--more-->, avec Frédéric B. Briet à la contrebasse, Nicolas Pointard à la batterie et Christophe Rocher aux clarinettes, dans le cadre d'une invitation par l'ensemble Nautilis. Le principe est de découvrir les musiciens lors du concert, sans jamais avoir joué avec eux auparavant. Ici, le trio qui m'invite se connaît et me propose un nouvel espace de création le temps d'un concert intimiste.

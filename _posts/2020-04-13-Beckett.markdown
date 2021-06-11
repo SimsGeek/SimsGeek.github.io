@@ -1,0 +1,12 @@
+---
+layout: post_compact
+assets: "beckett"
+show_excerpts: true
+autoFillImages: true
+autoFillAudios: true
+imageDescription: "Yell, marionnette née de mon projet sur Beckett"
+audioDescription: "1. Premier essai, dramatique <br/>2. Montage final reprenant mes diverses recherches sonores"
+
+excerpt_separator: <!--more-->
+---
+Un projet de licence sur le travail de Samuel Beckett.<!--more--> Beckett m'a d'abord inspiré le médium de la marionnette, en solo. J'ai par la suite préféré me concentrer sur l'interprétation sonore, que je n'arrivais  pas encore à maîtriser au service de la marionnette. Ce fût la partie la plus aboutie de mon travail : après la composition d'un texte à la fois référence à l'écriture de Beckett et pastiche de celle-ci, j'ai essayé diverses interprétations, dramatiques, systématiques, improvisées, avant d'arriver à un montage écrit et comprenant des percussions.

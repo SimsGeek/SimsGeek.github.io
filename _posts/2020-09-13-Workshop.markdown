@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Workshop L1"
+assets: "workshopL1"
+show_excerpts: true
+autoFillImages: true
+autoFillAudios: true
+imageDescription: "Résidence à la chapelle Dérézo"
+audioDescription: "Textes écrits par les étudiants pendant l'errance urbaine"
+
+excerpt_separator: <!--more-->
+---
+
+Workshop animé pendant une semaine pour les étudiants de première année de licence arts<!--more-->, pendant une période où les structures culturelles ne pouvaient pas s'en charger. Mon binôme et moi-même avons accueilli douze étudiants entrant en première année pour leur première semaine de fac, et de licence Arts. Nous les avons fait explorer l'écoute et la perception de l'autre et de soi dans les différents espaces (scéniques, urbains...).
