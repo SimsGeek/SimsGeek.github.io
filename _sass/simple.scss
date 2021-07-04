@@ -48,6 +48,13 @@ h3 {
   font-family: foglihten;
   margin: 0 1rem 0 0;
 }
+#top_button {
+  display: block;
+  position: fixed;
+  bottom: 50px;
+  right: 3rem;
+}
+//Home page styling
 li {
   list-style: none;
   img {
@@ -64,6 +71,14 @@ img {
   max-width: 100%;
   max-height: auto;
   margin: 1rem 0 0 0;
+}
+//image captions
+img+em{
+  display: block;
+  text-align: center;
+  font-style: oblique;
+  color: #3E3E3E;
+  margin: .3rem 0 1rem 0;
 }
 footer {
   text-align: center;
@@ -113,12 +128,13 @@ audio {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  align-items: center;
   margin: 1rem 0 .5rem 0;
   border-left: 1px dashed black;
 
   img {
     max-width: 45%;
-    max-height: auto;
+    height: auto;
   }
 
 }
@@ -167,7 +183,7 @@ audio {
   width: 100;
   height: auto;
   text-align: justify;
-  margin: .5rem 0 1.5rem 0;
+  margin: 1.5rem 0 1.5rem 0;
   border-bottom: 1px dashed black;
   border-left: 1px dashed black;
   padding: .3rem 1rem 0.3rem 1rem;
@@ -184,13 +200,41 @@ audio {
   margin: 2rem 0 0 0;
 }
 
-@media only screen
-  and (min-device-width: 412px)
-  and (max-device-width: 847px)
+.seperated {
+  background-color: #45B788;
+  padding: 0 0 1rem 0;
+  border-left: None;
+  cursor: pointer;
+
+  img {
+    box-shadow: 6px 6px 0px #173D2D;
+
+  }
+  .selected {
+    max-width: 90%;
+    min-width: 90%;
+  }
+}
+.media {
+  margin: 1rem auto 1rem auto;
+  display: block;
+  max-width: 100%;
+  height: 30vw;
+}
+@media screen
+  and (min-width: 200px)
+  and (max-width: 847px)
   and (-webkit-min-device-pixel-ratio: 2.6) {
 
   main {
-    margin: 2rem 10vw 2rem 10vw;
+    margin: 3rem 2rem 1rem 2rem;
   }
 
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  .bloc {
+    display:block;
+    clear:both;
+  }
 }
