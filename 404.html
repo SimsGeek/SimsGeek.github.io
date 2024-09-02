@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="$lang$" xml:lang="$lang$"$if(dir)$ dir="$dir$"$endif$>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="my-thing" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<!-- $for(author-meta)$
+  <meta name="author" content="$author-meta$" />
+$endfor$
+$if(date-meta)$
+  <meta name="dcterms.date" content="$date-meta$" />
+$endif$
+$if(keywords)$
+  <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$" />
+$endif$
+$if(description-meta)$
+  <meta name="description" content="$description-meta$" />
+$endif$ -->
+  <title>404 · Titre du mémoire</title>
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <main class="hero">
+
+        <div class="actions">
+            <div class="group-right">
+                <button class="toggle-light-dark" id="light-dark-switch">
+                    <i class="bx bx-moon"></i>
+                </button>
+                <button title="Télécharger">
+                    <a href="/MAIDON_M2ATP_2024.pdf">
+                      <i class='bx bx-download'></i>
+                    </a>
+                </button>
+                <button title="Page précédente" class="inactive">
+                  <a href="/$prevlink$/">
+                    <i class='bx bx-chevron-left' ></i>
+                  </a>
+                </button>
+                <button title="Page suivante" class="inactive">
+                  <a href="/$nextlink$/">
+                    <i class='bx bx-chevron-right' ></i>
+                  </a>
+                </button>
+            </div>
+        </div>
+        
+        <section class="section-404">
+
+        <h1 class="title-404">
+            Erreur 404
+        </h1>
+
+        <p class="message-404">
+            L'URL que vous avez composée n'est pas attribuée.
+        </p>
+        <button class="btn-404 primary">
+            <a href="/">
+                Revenir à l'accueil
+                <i class='bx bx-right-arrow-alt'></i>
+            </a>
+        </button>
+
+        </section>
+
+        <footer class="hero-footer">
+            <hr>
+            <p>
+                Ce site a été construit avec amour et <a href="https://pandoc.org/">pandoc</a>.
+            </p>
+            <p>
+                La mise en page des notes, largement inspirée de <a href="https://edwardtufte.github.io/tufte-css/">Tufte CSS</a> a été réalisée avec <a href="https://github.com/jez/pandoc-sidenote">pandoc-sidenote</a>. Les références bibliographiques ont été gérées avec <a href="https://github.com/jgm/citeproc">citeproc</a> et le style CSL <a href="https://github.com/citation-style-language/styles/blob/master/chicago-fullnote-bibliography.csl">chicago-fullnote-bibliography</a>.
+            </p>
+            <p>
+                La composition est faite avec les caractères <a href="https://huertatipografica.com/en/fonts/alegreya-ht-pro">Alegreya</a> et <a href="https://huertatipografica.com/en/fonts/alegreya-sans-ht">Alegreya Sans</a> sous licence libre <a href="https://openfontlicense.org/">SIL</a>.
+            </p>
+        </footer>
+
+    </main>
+</body>
+
+<script src="/assets/js/sidebar.js"></script>
+<script src="/assets/js/anchors.js"></script>
+<script src="/assets/js/nav-highlight-current.js"></script>
+<script src="/assets/js/external-links.js"></script>
+<script src="/assets/js/toggle-light-dark.js"></script>
+</html>
