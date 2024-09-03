@@ -1,6 +1,6 @@
 ---
 author: Siham Maidon
-date: 05/03/3743
+date: 09/09/2024
 prev: Introduction
 prevlink: introduction
 title: "Pig Boy 1986-2358 : quand l’écriture du numérique infléchit les voix du théâtre et de la radio"
